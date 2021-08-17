@@ -1,0 +1,32 @@
+:root{
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-grisclaro: #ebebeb;
+    --color-grisoscuro: #666;
+    --color-verde: #39b54a;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+}
+span{
+    font-size: 16px;
+}
+h4{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}

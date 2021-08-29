@@ -1,22 +1,43 @@
 .header{
-    width: 100%;
-    background-color: var(--color-amarillo);    
+    background-color: var(--color-amarillo);   
+    padding: 10px; 
 }
 .header img{
     width: 50%;
 }
-.pago{
+header form{
+    width: 50%;
+}
+header h3{
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+    color: black;
 }
-.burger-menu{
-    display: block;
-    width: 35px;
+header p{
+    text-align: center;
+    margin: 10px 0;
+}
+header nav{
+    display: none;
+}
+header .burger-menu{
+    text-align: center;
+    padding: 10px 0;
+}
+header .burger-menu i{
+    border-radius: 5px;
     background-color: var(--color-celeste);
     color: white;
-    padding: 8px;
-    border-radius: 74px;
-    margin: 0 auto 10px;
-    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+  
+@media (min-width: 361px) {
+    header nav{
+        display: block;
+    }
+    header .burger-menu{
+        display: none;
+    }
 }

@@ -7,6 +7,7 @@
 }
 header form{
     width: 50%;
+    border: none;
 }
 header h3{
     text-align: center;
@@ -32,6 +33,12 @@ header .burger-menu i{
     padding: 10px;
     font-size: 16px;
 }
+.arriba{
+    display: flex;
+}
+
+
+
   
 @media (min-width: 361px) {
     header nav{
@@ -39,5 +46,19 @@ header .burger-menu i{
     }
     header .burger-menu{
         display: none;
+    }
+    .arriba2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    header nav .listconteiner{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    header nav .lista1, .lista2{
+        display: flex;
+        justify-content: space-around;
     }
 }

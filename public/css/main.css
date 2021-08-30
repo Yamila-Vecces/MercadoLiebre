@@ -10,7 +10,7 @@ main section{
     margin: 0 auto;
 }
 main section h3{
-    color: black;
+    color: var(--color-grisoscuro);
     padding: 20px 0;
     
 }
@@ -47,6 +47,7 @@ main section article i{
     right: 20px;
     top: -15px; 
 }
+
 main section article p{
     color: black;
 }
@@ -55,13 +56,22 @@ main section article span{
     margin: 10px 0;
    
 }
+.valor{
+    display: flex;
+    align-items: center;
+}
+.valor p{
+    flex-grow: 0.3;
+}
 
 
 
 
+/* tablet*/
 @media (min-width: 361px) {
     main .banner{
         display: block;
+        width: 100%;
     }
     main section article .contenedor h4{
         display: block;
@@ -69,5 +79,18 @@ main section article span{
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    main section .caja1, .caja2, .caja3, .caja4{
+        display: flex;
+        justify-content: space-around;
+    }
+    
 
+}
+
+/*desktop*/
+@media (min-width: 769px) {
+    main section .ultima-visita, .ofertas{
+        display: flex;
+        justify-content: space-around;
+    }
 }
